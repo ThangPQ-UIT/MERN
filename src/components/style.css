@@ -1,0 +1,170 @@
+.body, html {
+	background-color: #fff;
+	font-family: sans-serif;
+}
+
+/* navbar */
+.navigation-bar {
+	position: fixed;
+	background-color: #442e2e;
+	width: 100%;
+	z-index: 2;
+	margin-bottom: 50px;
+	/* padding-bottom: 15px; */
+	height: 54px;
+	display: flex;
+}
+
+.navigation-bar p {
+	color: white;
+	margin: 0px;
+}
+
+.navigation-bar a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 0px 18px;
+}
+
+.menu a {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.menu a:hover {
+	color: #484865;
+	background-color: wheat;
+}
+
+.home-navbar {
+	margin-left: 30px;
+}
+
+.search {
+	margin-left: 6%;
+	display: flex;
+	align-items: center;
+}
+
+.search input{
+	width: 368px;
+	border-radius: 3px 0px 0px 3px;
+	border: 1px solid #fff;
+	border-right: none;
+	height: 33px;
+}
+
+.search .fa-search {
+	margin-right: 9px;
+}
+
+.search-btn button {
+	padding: 0px 9px;
+	color: #fff;
+	background-color: #be414d;
+	border: none;
+	height: 33px;
+	border-radius: 0px 3px 3px 0px;
+}
+
+.search-btn button:hover {
+	background-color: wheat;
+	color: #484865;
+	transition: 5px;
+}
+
+.user{
+	display: flex;
+	flex-direction: column;
+}
+
+button:active {
+	border: none;
+}
+
+/* Register */
+/* .register {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+} */
+/* Cart */
+.cart {
+	position: absolute;
+	right: 48px;
+	/* top: 12px; */
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.fa-shopping-cart {
+	color: #fff;
+}
+
+.cart-title {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-right: 18px;
+}
+
+.cart p {
+	margin: 0px;
+}
+
+/* Content body */
+
+.content-body {
+	position: relative;
+	top: 80px;
+	z-index: inherit;
+}
+
+/* Card */
+.product h6 {
+	margin-top: 10px;
+	height: 45px;
+}
+
+.product p {
+	height: 30px;
+}
+
+img {
+	width: 90%;
+	height: 90%;
+	margin-top: 10px;
+}
+.product {
+	border-radius: 5px;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+	padding-bottom: 45px;
+}
+
+.product:hover {
+	-webkit-box-shadow: 0px 2px 15px -1px rgba(150,141,150,0.64);
+	-moz-box-shadow: 0px 2px 15px -1px rgba(150,141,150,0.64);
+	box-shadow: 0px 2px 15px -1px rgba(150,141,150,0.64);
+}
+
+.detail-product {
+	width: 90%;
+	text-align: center;
+}
+.detail-product > .price {
+	font-weight: 600;
+}
+
+/* pagination */
+.pagination {
+	display: flex;
+	justify-content: flex-end;
+}
