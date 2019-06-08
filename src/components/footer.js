@@ -10,6 +10,7 @@ export default class Footer extends Component {
         </div>
         <div>
           <p>Add in test branch(git)</p>
+          <p>Add in test branch(git2)</p>
         </div>
     );
   }
