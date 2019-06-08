@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
 import { Button } from 'reactstrap';
-import { PaginationItem, PaginationLink } from 'reactstrap';
 import Pagination from "react-js-pagination";
 
 import {CartContext} from '../context/cart-context'
-import { async } from 'q';
 
 export default class Home extends Component {
     constructor(props) {
@@ -60,20 +58,7 @@ export default class Home extends Component {
       this.getData(1);
     }
 
-    // logOut() {
-    //   Axios.post('/user/logout')
-    //   .then(res => {
-    //     this.setState({
-    //       isLogin: res.data.success,
-    //       allList: res.data.message
-    //     })
-    //   })
-    // }
-
     render() {
-      // async{
-        
-      // }
       console.log("render");
       if(this.state.isLoading){
         return(
@@ -116,26 +101,8 @@ export default class Home extends Component {
               pageRangeDisplayed={3}
               onChange={this.handlePageChange}
             />
-              {/* <UserIdComponent name="1" onClick={this.btnClick}>1</UserIdComponent>
-              <UserIdComponent name="2" onClick={this.btnClick}>2</UserIdComponent>
-              <UserIdComponent name="3" onClick={this.btnClick}>3</UserIdComponent>
-              <UserIdComponent name="4" onClick={this.btnClick}>4</UserIdComponent>
-              <UserIdComponent name="5" onClick={this.btnClick}>5</UserIdComponent> */}
-
-              {/* <Button color='danger' onClick={this.logOut}>Log out</Button> */}
             </div>}
           </div>
         )
     }
 }
-
-// const UserIdComponent = (props) => {
-//       return(
-//         // <button className='the-btn' value={props.name} onClick={props.onClick}>{props.name}</button>
-//         <PaginationItem>
-//           <PaginationLink value={props.name} onClick={props.onClick}>
-//             {props.name}
-//           </PaginationLink>
-//         </PaginationItem>
-//       )
-// }
