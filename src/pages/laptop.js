@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Axios from 'axios';
 import { Button } from 'reactstrap';
 
-import {CartContext} from '../context/cart-context'
+import {generalContext} from '../context/generalContext'
 
 export default class Laptop extends Component {
     constructor(props) {
@@ -52,13 +52,13 @@ export default class Laptop extends Component {
                             <p>Mã sản phẩm: {items.productCode} </p>				
                             <p className="price">Giá: {items.productPrice} vnđ</p>
                         </div>
-                        <CartContext.Consumer>
+                        <generalContext.Consumer>
                         {
                             function({addToCart}){ 
                             return <Button color="primary" onClick={() => addToCart(items.productName, integerPrice)}>Add to cart</Button>
                             }
                         }
-                        </CartContext.Consumer>
+                        </generalContext.Consumer>
                     </div>
                     )
                 }) : <p className='alert alert-danger'>{this.state.laptopList}</p>

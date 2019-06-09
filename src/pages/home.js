@@ -3,7 +3,7 @@ import Axios from 'axios';
 import { Button } from 'reactstrap';
 import Pagination from "react-js-pagination";
 
-import {CartContext} from '../context/cart-context'
+import {generalContext} from '../context/generalContext'
 
 export default class Home extends Component {
     constructor(props) {
@@ -14,22 +14,20 @@ export default class Home extends Component {
           currentPage: 0,
           userId: 1,
           isLoading: false,
-          activePage: 1
+          activePage: 1,
+          isQuickView: false
       };
-      // this.logOut = this.logOut.bind(this);
       this.getData = this.getData.bind(this);
       this.handlePageChange = this.handlePageChange.bind(this);
     }
 
     getData(userId) {
-      console.log("Start render 1");
       this.setState({
         isLoading: true
       });
       Axios.get(`/home/page${userId}`)
       .then(res => {
         if(res.data.success){
-          console.log("Start render 2");
             this.setState({ 
                 isLogin: res.data.success,
                 allList: res.data.message,
@@ -53,13 +51,10 @@ export default class Home extends Component {
     }
 
     componentDidMount() {
-      console.log("componentdidmount");
-      console.log("Islogin-home: ", this.state.isLogin)
       this.getData(1);
     }
 
     render() {
-      console.log("render");
       if(this.state.isLoading){
         return(
           <p>Loading...</p>
@@ -73,35 +68,41 @@ export default class Home extends Component {
                   let words = items.productPrice.split('.');
                   let temp = words.join('');
                   let integerPrice = parseInt(temp, 10);
+                  let productImg = items.productImg;
+                  let productName = items.productName;
+                  let productPrice = items.productPrice;
+                  let productCode = items.productCode;
                   return(
-                  <div className='col-md-3 product' key={index}>
-                    <div className='product-img'>
-                      <img src={items.productImg} alt="not display" />
-                    </div>
-                    <div className="detail-product">
-                      <h6>{items.productName}</h6>
-                      <p>Mã sản phẩm: {items.productCode} </p>				
-                      <p className="price">Giá: {items.productPrice} vnđ</p>
-                    </div>
-                    <CartContext.Consumer>
+                    <generalContext.Consumer key={index}>
                     {
-                        function({addToCart}){ 
-                        return <Button color="primary" onClick={() => addToCart(items.productName, integerPrice)}>Add to cart</Button>
-                        }
+                      ({addToCart, onQuickView}) => 
+                      <div className='col-md-3 product' key={index}>
+                        <div className='product-img' onClick={()=>onQuickView(productImg, productName, productPrice, productCode)}>
+                          <img src={productImg} alt="not display" />
+                        </div>
+                        <div className="detail-product">
+                          <h6>{productName}</h6>			
+                          <p className="price">Giá: {productPrice} vnđ</p>
+                        </div>
+                        <Button color="primary" onClick={() => addToCart(productName, integerPrice)}>Add to cart</Button>
+                      </div>
                     }
-                    </CartContext.Consumer>
-                  </div>
-                )})) : <p className='alert alert-danger'>{this.state.allList}</p>}
+                    </generalContext.Consumer>
+                  )
+                })) : <p className='alert alert-danger'>{this.state.allList}</p>
+              }
             </div>
-            {this.state.isLogin && <div className='pagination'>
-            <Pagination
-              activePage={this.state.activePage}
-              itemsCountPerPage={8}
-              totalItemsCount={36}
-              pageRangeDisplayed={3}
-              onChange={this.handlePageChange}
-            />
-            </div>}
+            {
+              this.state.isLogin && <div className='pagination'>
+              <Pagination
+                activePage={this.state.activePage}
+                itemsCountPerPage={8}
+                totalItemsCount={36}
+                pageRangeDisplayed={3}
+                onChange={this.handlePageChange}
+              />
+            </div>
+            }
           </div>
         )
     }

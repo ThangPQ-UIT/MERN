@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
-import { CartContext } from '../context/cart-context'
+import { generalContext } from '../context/generalContext'
 
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
@@ -19,31 +19,6 @@ export default class Header extends Component {
     }
     this.logOut = this.logOut.bind(this);
   }
-
-  // componentDidMount() {
-  //   Axios
-  //   .post('/user/login')
-  //   .then(response => {
-  //     console.log("res.data: ", response.data);
-  //     return response
-  //   })
-  //   .then(res => {
-  //     if (res.data.success === true) {
-  //       this.setState({
-  //         isLogin: true
-  //       })
-  //     }
-  //     else {
-  //       this.setState({
-  //         isLogin: false
-  //       })
-  //     }
-  //   })
-  //   .catch(err => {
-  //     console.log(err)
-  //   })
-  //   console.log('islogin-header: ', this.state.isLogin)
-  // }
   
   logOut() {
     Axios.post('/user/logout')
@@ -75,8 +50,9 @@ export default class Header extends Component {
           <Link to="/tablet">Tablet</Link>
         </div>
         
-        <CartContext.Consumer>
-          {({ searchProduct }) => {
+        <generalContext.Consumer>
+        {
+          ({ searchProduct }) => {
             return (
               <div className="search">
                 <input
@@ -92,10 +68,12 @@ export default class Header extends Component {
                 </div>
               </div>
             );
-          }}
-        </CartContext.Consumer>
-        <CartContext.Consumer>
-          {({ CartItem, totalAmount }) => {
+          }
+        }
+        </generalContext.Consumer>
+        <generalContext.Consumer>
+        {
+          ({ CartItem, totalAmount }) => {
             let rounds = "000";
             let integerTotalAmount = parseInt(totalAmount, 10);
             let hundreds = integerTotalAmount % 1000;
@@ -136,12 +114,13 @@ export default class Header extends Component {
                   <p>Tổng tiền: {stringTotalAmount} Đ</p>
                 </div>
                 <div className='user'>
-              <Link to="/login" onClick={this.logOut}>Logout</Link>
-            </div>
+                  <Link to="/login" onClick={this.logOut}>Logout</Link>
+                </div>
               </div>
             );
-          }}
-        </CartContext.Consumer>
+          }
+        }
+        </generalContext.Consumer>
       </div>) : 
       (
         <div className="navigation-bar">
@@ -158,7 +137,7 @@ export default class Header extends Component {
           <Link to="/tablet">Tablet</Link>
         </div>
         
-        <CartContext.Consumer>
+        <generalContext.Consumer>
           {({ searchProduct }) => {
             return (
               <div className="search">
@@ -176,7 +155,7 @@ export default class Header extends Component {
               </div>
             );
           }}
-        </CartContext.Consumer>
+        </generalContext.Consumer>
         <div className='user'>
           <Link to="/register">Register</Link>
           <Link to="/login">Login</Link>
