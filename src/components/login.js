@@ -14,6 +14,7 @@ class Login extends Component {
     this.onSubmit = this.onSubmit.bind(this)
   }
 
+  // Lấy giá trị value đã thay đổi trong input rồi setState lại
   onChange(e) {
     this.setState({ [e.target.name]: e.target.value })
   }
@@ -48,6 +49,7 @@ class Login extends Component {
       <div className="container">
         <div className="row">
           <div className="col-md-6 mt-5 mx-auto">
+            {/* Xuat ra loi khi chua điền đẩy đủ email, pw, name... */}
             {
               this.state.errors.length > 0 && (this.state.errors.map((error, index)=>
               

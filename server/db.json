@@ -1,0 +1,10 @@
+{
+	"user": [
+		{"id": 1, "name": "Thang"},
+		{"id": 2, "name": "Hoang"}
+	],
+	"product": [
+		{"id": 1, "name": "Iphone X"},
+		{"id": 2, "name": "Samsung"}
+	]
+}
