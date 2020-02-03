@@ -1,0 +1,84 @@
+{ 
+    "_id" : ObjectId("5ce953b1792243116be40f0a"), 
+    "productCode" : "A1", 
+    "productName" : "Máy tính bảng tablet Windows 10 Pipo W2S", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/18/3d/1a/d369502e12f844071e9c7e5c087dba4d.jpg", 
+    "productPrice" : "2.999.000"
+},
+{ 
+    "_id" : ObjectId("5ce953ba792243116be40f0f"), 
+    "productCode" : "B1", 
+    "productName" : "Máy Tính Bảng 10.i inch", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/dc/41/a7/81afeb22dd861f756243872c501de6be.jpg", 
+    "productPrice" : "1.775.000"
+},
+{ 
+    "_id" : ObjectId("5ce953c4792243116be40f13"), 
+    "productCode" : "C1", 
+    "productName" : "Túi đựng Máy Tính Bảng Prowell", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/13/1b/18/d957f05e3ab249af7f35fe9cd133843c.jpg", 
+    "productPrice" : "3.360.000"
+},
+{ 
+    "_id" : ObjectId("5ce953cd792243116be40f19"), 
+    "productCode" : "D1", 
+    "productName" : "Máy Tính Bảng Readboy Q7S", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/36/85/57/6756f1707960e4dd67bbce8a25b5a66f.jpg", 
+    "productPrice" : "8.246.000"
+},
+{ 
+    "_id" : ObjectId("5ce953d5792243116be40f21"), 
+    "productCode" : "E1", 
+    "productName" : "Máy Tính Bảng Huawei M5", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/6d/66/15/9307abe0a0aeb7826976905b262ceff1.jpg", 
+    "productPrice" : "9.452.000"
+},
+{ 
+    "_id" : ObjectId("5ce953e3792243116be40f26"), 
+    "productCode" : "F1", 
+    "productName" : "Máy Tính Bảng Alldocube T2", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/b4/05/f4/e5841a4c04bd33f34705e0bce7d9fa7f.jpg", 
+    "productPrice" : "1.990.000"
+},
+{ 
+    "_id" : ObjectId("5ce953ec792243116be40f29"), 
+    "productCode" : "G1", 
+    "productName" : "Máy Tính Bảng Alldocube U63", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/c8/40/b8/f28891b097fb625d31e949e8aa1dc092.jpg", 
+    "productPrice" : "2.219.000"
+},
+{ 
+    "_id" : ObjectId("5ce953f4792243116be40f2f"), 
+    "productCode" : "H1", 
+    "productName" : "Máy Tính Bảng Cube iwork10 Pro", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/61/1f/e3/4ba970470607f2110f14e8f353f45c55.jpg", 
+    "productPrice" : "4.346.000"
+},
+{ 
+    "_id" : ObjectId("5ce953fe792243116be40f33"), 
+    "productCode" : "I1", 
+    "productName" : "Máy Tính Bảng 7 inch Google", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/a0/3c/fc/91033ed768fdf8b4a58df3557584e5ed.jpg", 
+    "productPrice" : "9.740.000"
+},
+{ 
+    "_id" : ObjectId("5ce95407792243116be40f39"), 
+    "productCode" : "J1", 
+    "productName" : "Máy Tính Bảng Readboy G550S Màu Vàng", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/55/31/95/6e113cd32e63e4efb3c46324c8bc7758.jpg", 
+    "productPrice" : "12.791.000"
+},
+{ 
+    "_id" : ObjectId("5ce95410792243116be40f41"), 
+    "productCode" : "K1", 
+    "productName" : "Máy Tính Bảng Jumper EZpad M3", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/36/bc/a6/930b1d46d4d6e5910424e5edd198b411.jpg", 
+    "productPrice" : "23.201.000"
+},
+{ 
+    "_id" : ObjectId("5ce9541a792243116be40f45"), 
+    "productCode" : "L1", 
+    "productName" : "Túi đựng Máy Tính Bảng Prowel NB53234", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/9e/cf/d2/52854fa79538f2992dfaad840b9982c0.jpg", 
+    "productPrice" : "3.090.007"
+}

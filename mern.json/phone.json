@@ -1,0 +1,84 @@
+{ 
+    "_id" : ObjectId("5ce95316792243116be40eb6"), 
+    "productCode" : "A1", 
+    "productName" : "Điện thoại CAT S61", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/d3/62/83/1571390621f734dd5dd11106bc29e49a.jpg", 
+    "productPrice" : "21.490.000"
+},
+{ 
+    "_id" : ObjectId("5ce95320792243116be40ebd"), 
+    "productCode" : "B1", 
+    "productName" : "Điện thoại IVVI CK3", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/c5/11/d5/cdc50e8c28d627faffc89f8d9b6b78b3.jpg", 
+    "productPrice" : "2.490.000"
+},
+{ 
+    "_id" : ObjectId("5ce9532a792243116be40ec1"), 
+    "productCode" : "C1", 
+    "productName" : "Điện thoại OPPO K11", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/f8/dd/82/b688fc781b2b96687ab8e4c97c8c75ea.jpg", 
+    "productPrice" : "6.140.000"
+},
+{ 
+    "_id" : ObjectId("5ce95334792243116be40ec4"), 
+    "productCode" : "D1", 
+    "productName" : "Điện thoại IVVI F2S", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/70/35/3a/64c39f9e27ebbc8c771e2dd836e95f68.jpg", 
+    "productPrice" : "14.170.000"
+},
+{ 
+    "_id" : ObjectId("5ce95340792243116be40ecb"), 
+    "productCode" : "E1", 
+    "productName" : "Điện thoại NEWSDAY A1", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/5c/32/b4/ff5d1e379c4287fbff4bd0069f8d6161.jpg", 
+    "productPrice" : "9.640.000"
+},
+{ 
+    "_id" : ObjectId("5ce95349792243116be40ecf"), 
+    "productCode" : "F1", 
+    "productName" : "Điện thoại Oneplus 6T", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/0d/ba/f3/b939e1e83bad6bad5a0bedb96a8a6692.jpg", 
+    "productPrice" : "3.990.000"
+},
+{ 
+    "_id" : ObjectId("5ce95357792243116be40ed4"), 
+    "productCode" : "G1", 
+    "productName" : "Điện thoại Xiaomi Redmi 6A", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/b4/d9/57/f68041cc78ea3b026b81d72bc27d6c44.jpg", 
+    "productPrice" : "17.163.000"
+},
+{ 
+    "_id" : ObjectId("5ce95361792243116be40ed9"), 
+    "productCode" : "H1", 
+    "productName" : "Điện thoại Symphony S501", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/00/55/fb/e5df28ae853ecc2c272fa55a2c2e68fc.jpg", 
+    "productPrice" : "1.999.999"
+},
+{ 
+    "_id" : ObjectId("5ce95369792243116be40edd"), 
+    "productCode" : "J1", 
+    "productName" : "Điện thoại Asanzo S3 Plus", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/50/12/52/b9cff6c84845c2b82b5a9d7b4ea7b2eb.jpg", 
+    "productPrice" : "1.099.000"
+},
+{ 
+    "_id" : ObjectId("5ce95371792243116be40ee1"), 
+    "productCode" : "K1", 
+    "productName" : "Điện thoại Xiaomi Mi 8", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/0a/31/7f/42cdae103432b3d8924eaf3e02555841.jpg", 
+    "productPrice" : "6.251.000"
+},
+{ 
+    "_id" : ObjectId("5ce9537a792243116be40ee6"), 
+    "productCode" : "L1", 
+    "productName" : "Điện thoại lefone Power 3S", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/48/b1/0b/0badd2760d6cbc3af232228a26212116.jpg", 
+    "productPrice" : "7.769.000"
+},
+{ 
+    "_id" : ObjectId("5ce95383792243116be40eea"), 
+    "productCode" : "M1", 
+    "productName" : "Điện thoại Blackberry KEY2", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/a3/c0/21/d039303720a824b4116f4b0fc76fde5d.jpg", 
+    "productPrice" : "2.831.000"
+}

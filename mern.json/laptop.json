@@ -1,0 +1,84 @@
+{ 
+    "_id" : ObjectId("5ce941a6792243116be407af"), 
+    "productCode" : "A1", 
+    "productName" : "Laptop Masstel L133 Pro", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/e8/38/33/118b5526a9113265f70925f571a134e6.jpg", 
+    "productPrice" : "5.490.000"
+},
+{ 
+    "_id" : ObjectId("5ce941c7792243116be407c9"), 
+    "productCode" : "B1", 
+    "productName" : "Laptop Dell Latitude 5490", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/a7/48/46/d38dfc1ce15279fef71f44190a5be6aa.jpg", 
+    "productPrice" : "17.590.000"
+},
+{ 
+    "_id" : ObjectId("5ce941db792243116be407dd"), 
+    "productCode" : "C1", 
+    "productName" : "Laptop Sony Vaio SVS151", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/media/catalog/product/s/v/svs15125cvb_4_.jpeg", 
+    "productPrice" : "14.800.000"
+},
+{ 
+    "_id" : ObjectId("5ce941eb792243116be407ef"), 
+    "productCode" : "D1", 
+    "productName" : "Laptop Ultrabook", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/47/88/6a/ebd175e4eaf536eec3c350c70854337e.jpg", 
+    "productPrice" : "6.119.000"
+},
+{ 
+    "_id" : ObjectId("5ce941f7792243116be407f3"), 
+    "productCode" : "E1", 
+    "productName" : "Laptop Ultrathin Z8350", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/e8/87/16/c4222c642cdb7b025741faab493b7131.jpg", 
+    "productPrice" : "4.726.000"
+},
+{ 
+    "_id" : ObjectId("5ce94200792243116be407f7"), 
+    "productCode" : "F1", 
+    "productName" : "Laptop HP (99)", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/26/27/11/26f2b43dcfe9e855d5813dc6672ffd3f.jpg", 
+    "productPrice" : "39.816.000"
+},
+{ 
+    "_id" : ObjectId("5ce9420b792243116be407ff"), 
+    "productCode" : "G1", 
+    "productName" : "Laptop Masstel L133", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/e8/38/33/06d6deb4f3bc8c37655e86e7617d7510.jpg", 
+    "productPrice" : "14.980.000"
+},
+{ 
+    "_id" : ObjectId("5ce94218792243116be40808"), 
+    "productCode" : "H1", 
+    "productName" : "Laptop Dell Instpiron 3543", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/media/catalog/product/1/1/119433_dell-inspiron-n3543a-p40f001.jpg", 
+    "productPrice" : "7.700.000"
+},
+{ 
+    "_id" : ObjectId("5ce94223792243116be40818"), 
+    "productCode" : "I1", 
+    "productName" : "Laptop Dell Latitude E7270", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/media/catalog/product/7/0/70077315_1.u425.d20160517.t170619.jpg", 
+    "productPrice" : "30.900.000"
+},
+{ 
+    "_id" : ObjectId("5ce9422e792243116be4081c"), 
+    "productCode" : "J1", 
+    "productName" : "Laptop Dell Inspiron 5570", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/43/b3/f2/597e1badfe9e8a18396f25de1a5ec13f.jpg", 
+    "productPrice" : "14.500.000"
+},
+{ 
+    "_id" : ObjectId("5ce94236792243116be40820"), 
+    "productCode" : "K1", 
+    "productName" : "Laptop Dell Latitude 3490", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/85/4d/9e/53fc8405a7c0b087ac10d73ecb679cc1.jpg", 
+    "productPrice" : "10.900.000"
+},
+{ 
+    "_id" : ObjectId("5ce94242792243116be40826"), 
+    "productCode" : "L1", 
+    "productName" : "Laptop Dell XPS15 9570", 
+    "productImg" : "https://salt.tikicdn.com/cache/200x200/ts/product/2f/86/dc/2b24ada92bc65bf672f25ca1e4f1583c.jpg", 
+    "productPrice" : "35.000.090"
+}
